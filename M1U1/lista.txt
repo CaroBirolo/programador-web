@@ -3,6 +3,3 @@ yerba
 cafe
 azucar
 lavandina
-leche
-heuvos 
-manteca
