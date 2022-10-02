@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="tareabs.css">
+    <title>Tarea Bootstrap</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <nav id="container-header" class="navbar navbar-expand-lg" style="background-color: white">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="Let´s travel.jpg" width="120" height="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Paquetes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Nacionales</a></li>
+                            <li><a class="dropdown-item" href="#">Internacionales</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Especial grupales</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#conocenos">Visitanos</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="SLIDER-1.jpg" class="d-block w-100 altoajuste" alt="logo">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="SLIDER-2.jpg" class="d-block w-100 altoajuste" alt="argentina">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="slider-3.gif" class="d-block w-100 altoajuste" alt="GRUPAL">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <br>
+    <br>
+    <h2> Nosotros </h2>
+    <div id="nosotros" class="cards" style="display: flex">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Acerca de nosotros </h5>
+                <p class="card-text">Nuestra empresa desarrolla sus actividades en el mercado turístico nacional e
+                    internacional desde 1982. Comercializamos servicios turísticos minoristas y
+                    mayoristas, elaborando sus propios paquetes, operando viajes de otras empresas y organizando también
+                    actividades programadas.</p>
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">35 años de experiencia</h5>
+                <p class="card-text">Nos permiten mantener una fluida relación con prestatarios de servicios, pudiendo
+                    ofrecer así una variada gama de opciones en lo referente a alojamiento, transportes, excursiones y
+                    demás servicios complementarios.
+                </p>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Misión</h5>
+                <p class="card-text">
+                    Somos organizadores de viajes de placer y de negocios, a través del asesoramiento y la gestión de
+                    programas turísticos de excelencia en todo el mundo.
+                    Nuestro fin principal consiste en orientar y asistir a nuestros clientes en la planificación y
+                    realización de sus viajes.</p>
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+
+            <div class="card-body">
+                <h5 class="card-title">Vision</h5>
+                <p class="card-text">
+                    Ser una de las empresas de viajes más reconocidas por prestar un servicio de alta calidad, que
+                    proporciona al usuario bienestar con gran satisfacción, trabajando con gran dinamismo, creatividad y
+                    capacidad de reacción ante un mercado en constante evolución.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    
+    <form id="contacto" class="form">
+        <h2> Contactenos </h2>
+
+        <div class="form-group">
+            <div class="row">
+                <div class="form-group col-md-3">
+                    <label for="Nombre">Nombre</label>
+                    <input type="text" class="form-control" id="inputPassword4" placeholder="Nombre y apellido">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="row">
+                <div class="form-group col-md-3">
+                    <label for="inputAddress">Telefono</label>
+                    <input type="text" class="form-control" id="inputAddress"
+                        placeholder="Codigo de aerea + telefono. Ej: 1122334455">
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label for="inputCity">Localidad</label>
+                    <input type="text" class="form-control" id="Localidad">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-group col-md-6">
+            <label for="inputState">Ha viajado anteriormente con nosotros?</label>
+            <select id="inputState" class="form-control">
+                <option selected>Elija una opcion...</option>
+                <option> SI </option>
+                <option> NO </option>
+            </select>
+        </div>
+        <div class="form-group col-md-6">
+            <label for="exampleFormControlTextarea1">Deje su consulta aqui</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="7"></textarea>
+        </div>
+
+
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"
+                checked>
+            <label class="form-check-label" for="exampleRadios1">
+                Deseo me contacten por mail
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+            <label class="form-check-label" for="exampleRadios2">
+                Desdeo me contacten por telefono
+            </label>
+        </div>
+        <div class="form-check">
+            <button type="button" class="btn btn-primary">Enviar consulta</button>
+        </div>
+    </form>
+
+    <br>
+    <br>
+    <div id="conocenos">
+        <h2> Visitenos </h2>
+        <div class="mapa"><iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.219408594284!2d-58.42229628524329!3d-34.59861296473409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca62d4cf1563%3A0x686de505d84c67e6!2sAv.%20Medrano%20951%2C%20C1179AAQ%20CABA!5e0!3m2!1ses-419!2sar!4v1664748113433!5m2!1ses-419!2sar"
+                width="100%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
