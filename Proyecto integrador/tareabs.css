@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+.container-fluid {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    font-weight: bolder;
+}
+
+#container-header {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    padding: 0px;
+}
+
+.cards {
+    padding-top: 10px;
+    justify-content: space-around;
+}
+
+.card-text {
+    text-align: justify;
+}
+
+.form.group{
+    padding: auto;
+}
+
+.altoajuste {
+    height: 80vh;
+}
+
+.card {
+    background: #d3e3e0;
+    padding-bottom: 10px;
+
+}
+
+.form {
+    padding: 20px 20px;
+}
+
+.form-group, .form-check {
+    padding-top:15px;
+}
+
+.form-check-input:checked {
+    background-color: #6fe2cd;
+    border-color: #6fe2cd;
+}
+
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #6fe2cd;
+    --bs-btn-border-color: #6fe2cd;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #6fe2cd;
+    --bs-btn-hover-border-color: #6fe2cd;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #6fe2cd;
+    --bs-btn-active-border-color: #6fe2cd;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #6fe2cd;
+    --bs-btn-disabled-border-color: #6fe2cd;
+}
+
+.nav-item:hover {
+    background-color: #6fe2cd;
+    border-radius: 5px;
+}
